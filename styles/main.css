@@ -3,11 +3,11 @@ display: flex;
 }
 #sidebar{
 width: 250px;
-border: 1px solid red;
+
 }
 #main{
 width: 900px;    
-border: 1px solid red;
+
     
 }
 #image{

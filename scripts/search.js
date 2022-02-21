@@ -8,6 +8,11 @@ var data = await res.json()
   }catch(err){
       console.log(err)
   }
+Input.addEventListener("keypress",(e)=>{
+if(e.key=="Enter"){
+
+}
+})
 
 }
 

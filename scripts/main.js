@@ -29,14 +29,17 @@ div2.id ="div2"
 div2.innerHTML= elem.description
 div.append(image,div1,div2)
 parent.append(div)
-
-image.addEventListener("click",news);
+var arr =[]
+div.addEventListener("click",news);
     function news(elem){
+        console.log(image)
         window.location.href="news.html"
-
-    localStorage.setItem("disc",(JSON.stringify(image)))
+arr.push(elem)
+    localStorage.setItem("disc:",JSON.stringify(arr))
     
     }
+
 })
+
 }
 export {apicall,appenddata}
